@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SORTING HAT</title>
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+  
+<header class="opener text-center">
+
+  <div class="card">
+    <div class="card-header">
+      The Sorting Hat
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">Welcome to the Sorting Hat!</h5>
+      <p class="card-text">Click below to reveal your destiny!</p>
+      <button type="button" id="enter" class="btn btn-primary" onclick ="showDiv()">ENTER</button>
+    </div>
+  </div>
+
+</header>
+
+<div class ="card text-center" id="welcomeDiv" display="none" style="display:none">
+
+  <form>
+    <div class="m-3 container text-center">
+    <h2>Enter First Year's Name</h2>
+
+    <div class="mb-3">
+      <label for="studentName" class="form-label" >Student Name:</label>
+      <input type="text" class="form-control" id="studentName" required>
+    </div>
+    <button type="submit" class="btn btn-primary">Sort!</button>
+  </form>
+
+</div>
+</div>
+
+<div class ="card text-center" id="filter-students">
+    <h4>Filter Students</h4>
+      <div id="filter-buttons" class="btn-group">
+        <button type="button" id="all" class="btn btn-primary">All</button>
+        <button type="button" id="Griffindor" class="btn btn-primary">Gryffindor</button>
+        <button type="button" id="Hufflepuff" class="btn btn-primary">Hufflepuff</button>
+        <button type="button" id="Ravenclaw" class="btn btn-primary">Ravenclaw</button>
+        <button type="button" id="Slytherin" class="btn btn-primary">Slytherin</button>
+      </div>
+</div>
+
+<div id="container">
+  <div id="app"></div>
+  <div id="jail"></div>
+</div>
+  
+</body>
+
+  <script src="main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

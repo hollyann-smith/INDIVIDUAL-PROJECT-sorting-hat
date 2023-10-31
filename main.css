@@ -1,0 +1,44 @@
+#container {
+  display: flex;
+  justify-content: space-around;
+  overflow: auto;
+}
+
+#app {
+  border: 5px solid black;
+  width: 50%;
+  height: 100vh;
+  overflow: auto;
+}
+
+#jail {
+  border: 5px solid red;
+  width: 50%;
+  height: 100vh;
+  overflow: auto;
+}
+
+#Griffindor {
+background-color: green;
+border-color: green;
+}
+
+#Hufflepuff {
+background-color: blueviolet;
+border-color: blueviolet;
+} 
+
+#Ravenclaw {
+  background-color: blue;
+  border-color: blue;
+} 
+
+#Slytherin {
+background-color: crimson;
+border-color: crimson;
+}
+
+#all {
+  background-color: black;
+  border-color: black;
+}
