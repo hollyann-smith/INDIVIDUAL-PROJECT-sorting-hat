@@ -26,3 +26,4 @@ git@github.com:hollyann-smith/INDIVIDUAL-PROJECT-sorting-hat.git
 https://github.com/hollyann-smith/
 
 ## Link to Loom video walkthrough: 
+https://www.loom.com/share/ec1162f94607420aa263e00b38ad951c
